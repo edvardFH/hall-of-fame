@@ -8,10 +8,12 @@ defineProps<{
 function formatDuration(duration: Duration) {
   const { hours, minutes, seconds } = duration
 
+  const format = (num) => (num < 10 ? '0' + num : num)
+
   if (hours > 0) {
-    return hours + ':' + minutes + ':' + seconds
+    return format(hours) + ':' + format(minutes) + ':' + format(seconds)
   } else {
-    return minutes + ':' + seconds
+    return format(minutes) + ':' + format(seconds)
   }
 }
 </script>

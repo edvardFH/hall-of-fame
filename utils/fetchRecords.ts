@@ -11,17 +11,17 @@ export default function (): PersonalRecord[] {
             duration: {
                 hours: 0,
                 minutes: 17,
-                seconds: 34
+                seconds: 17
             },
             pace: {
                 duration: {
                     hours: 0,
                     minutes: 4,
-                    seconds: 36
+                    seconds: 34
                 },
                 unit: "km"
             },
-            date: "06/07/2022",
+            date: "06/10/2024",
             athleteName: "Alan"
         },
         {
